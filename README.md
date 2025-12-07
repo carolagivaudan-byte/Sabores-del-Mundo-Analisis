@@ -29,25 +29,34 @@ Exploración de la tabla menu_items
 
 Consultas realizadas:
 
-Número total de artículos en el menú.
+Número total de artículos en el menú. 
+32
 
 Artículo más caro y menos caro.
+Menos caro: Edamame
+Mas caro: Shrimp Scampi
 
 Total de platos de origen americano.
+Hay 6 platos americanos
 
 Precio promedio de los platos.
+El precio promedio de los platos es de 13.28
 
 Exploración de la tabla order_details
 
 Consultas realizadas:
 
 Total de pedidos únicos.
+Pedidos Unicos:5370
 
 Los 5 pedidos con mayor cantidad de artículos.
+Pedidos: 440, 2675, 3473, 4305 y 443 con 14 articulos pedidos cada uno 
 
 Fecha del primer y último pedido registrado.
+El primer pedido se realizo en 2023-01-01 y el ultimo pedido se realizo el 2023-03-31
 
 Total de pedidos realizados entre '2023-01-01' y '2023-01-05'.
+S e realizaron 308 pedidos 
 
 🔗 Análisis combinado entre tablas
 
@@ -63,20 +72,28 @@ Esto permitió relacionar cada transacción con el artículo correspondiente del
 
 Hallazgos clave del análisis (5 insights importantes)
 
-Aquí debes colocar tus conclusiones una vez ejecutes las consultas.
-Ejemplo (puedo personalizarlo cuando tengas los resultados):
+Productos mas vendidos 
+Los productos mas vendidos son:
+"Hamburger" con 622 pedidos 
+"Edamame"	 con 620 pedidos
+"Korean Beef Bowl"	con 588 pedidos
+"Cheeseburger"	con 583 pedidos
+"French Fries"	con 571 pedidos
+"Tofu Pad Thai" con	562 pedidos
+"Steak Torta"	 con 489 pedidos
+"Spaghetti & Meatballs" con	470 pedidos
+"Mac & Cheese"	con 463 pedidos
+"Chips & Salsa" con	461 pedidos
 
-Los platos más vendidos pertenecen mayormente a la categoría X.
+La categoria mas vendida es Asian con 3470 ventas
 
-Los artículos con mayor precio no presentan la misma demanda que los de rango medio.
+El producto Korean Beef Bowl es el producto con mayor ingreso con un valor de 10554
 
-Ciertos productos del menú apenas aparecen en las transacciones, lo que sugiere baja aceptación.
+El producto menos vendido es el Chicken Tacos con 123 ventas 
 
-Los días con mayor número de pedidos corresponden a X fechas, útil para optimizar horarios y personal.
+El ticket promedio es de 29.79
 
-Existe una tendencia clara hacia productos de cierto tipo, lo cual puede guiar futuras decisiones del menú.
-
-ecnologías utilizadas
+Tecnologías utilizadas
 
 SQL (consultas, joins, agregaciones)
 
